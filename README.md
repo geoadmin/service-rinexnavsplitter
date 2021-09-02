@@ -4,7 +4,7 @@ Divides the combined rinex navigation files into files per satellite system.
 
 ## Summary
 
-The service Divides the combined rinex navigation files into files per system.
+The service divides the combined rinex navigation files into files per system.
 All configuration parameters are listed in the configuration file App.config.
 
 ## Dependencies
