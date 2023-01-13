@@ -1,2 +1,4 @@
 Debug
 /.vs/service-rinexnavsplitter/v16/*.suo
+service-rinexnavsplitter/bin*
+service-rinexnavsplitter/obj*
