@@ -2,3 +2,12 @@ Debug
 /.vs/service-rinexnavsplitter/v16/*.suo
 service-rinexnavsplitter/bin*
 service-rinexnavsplitter/obj*
+*.swp
+service-rinexnavsplitter/testdata/multi_length_source/RefData.23/Month.Jan/Day.10/ETH200CHE_R_20230100900_01H_CN.rnx
+service-rinexnavsplitter/testdata/multi_length_source/RefData.23/Month.Jan/Day.10/ETH200CHE_R_20230100900_01H_EN.rnx
+service-rinexnavsplitter/testdata/multi_length_source/RefData.23/Month.Jan/Day.10/ETH200CHE_R_20230100900_01H_GN.rnx
+service-rinexnavsplitter/testdata/multi_length_source/RefData.23/Month.Jan/Day.10/ETH200CHE_R_20230100900_01H_RN.rnx
+service-rinexnavsplitter/testdata/multi_length_source/RefData.23/Month.Jan/Day.10/PAYE00CHE_R_20230100900_01H_CN.rnx
+service-rinexnavsplitter/testdata/multi_length_source/RefData.23/Month.Jan/Day.10/PAYE00CHE_R_20230100900_01H_EN.rnx
+service-rinexnavsplitter/testdata/multi_length_source/RefData.23/Month.Jan/Day.10/PAYE00CHE_R_20230100900_01H_GN.rnx
+service-rinexnavsplitter/testdata/multi_length_source/RefData.23/Month.Jan/Day.10/PAYE00CHE_R_20230100900_01H_RN.rnx

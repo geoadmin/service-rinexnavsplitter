@@ -249,13 +249,13 @@ namespace RinexNavSplitter
             DirectoryInfo dateShopInputDIR = new DirectoryInfo(dateShopPath);
             FileInfo[] rinexInputFiles = dateShopInputDIR.GetFiles("*MN.rnx");
             foreach (FileInfo file in rinexInputFiles)
-            {
+            { 
                 if (file.Length > 0)
                 {
-                    swGPS = File.CreateText(file.FullName.Replace("H_01S_MN", "H_GN"));
-                    swBEIDOU = File.CreateText(file.FullName.Replace("H_01S_MN", "H_CN"));
-                    swGLONASS = File.CreateText(file.FullName.Replace("H_01S_MN", "H_RN"));
-                    swGALILEO = File.CreateText(file.FullName.Replace("H_01S_MN", "H_EN"));
+                    swGPS = File.CreateText(file.FullName.Replace("_01S_", "_").Replace("H_MN", "H_GN"));
+                    swBEIDOU = File.CreateText(file.FullName.Replace("_01S_", "_").Replace("H_MN", "H_CN"));
+                    swGLONASS = File.CreateText(file.FullName.Replace("_01S_", "_").Replace("H_MN", "H_RN"));
+                    swGALILEO = File.CreateText(file.FullName.Replace("_01S_", "_").Replace("H_MN", "H_EN"));
                     using (StreamReader reader = file.OpenText())
                     {
                         string line;
